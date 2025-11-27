@@ -201,12 +201,13 @@ body {
   /* Click effect - move front down, back up */
 .heart-front.clicked {
   transform: translateY(100px) translateX(-50px);
-  transition: transform 0.3s ease;
+  transition: transform 0.9s ease;
 }
 
 .heart-back-container.clicked {
   transform: translateY(-100px) translateX(50px);
-  transition: transform 0.3s ease;
+  transition: transform 0.9s ease;
 }
 }
+
 
